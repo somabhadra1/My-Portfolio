@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.section-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.image{
+    height: 500px;
+}
+.half-width{
+    width: 45%;
+    margin-left: 40px;
+}
+.color{
+    color: goldenrod;
+}
+.btn-color{
+    border: 1px solid goldenrod;
+    padding: 10px 40px;
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to right, tomato, orange);
+    border-radius: 10px;
+}
+.font-size{
+    font-size: 50px;
+}
+.font-size2{
+    font-size: 40px;
+}
+.div{
+    border: 1px solid red;
+    margin: 30px 50px;
+    padding: 15px 15px;
+    box-shadow: 10px 5px 5px 5px gray;
+    border-left: 10px solid;
+    border-image: linear-gradient(tomato, orange) 0 100%;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+.first-section{
+    background-image: url(/images/top-banner.png);
+    background-repeat: no-repeat;
+    padding-top: 0px;
+    padding-left: 0px;
+}
+.second-bg-img{
+    background-image: url(/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+  margin-right: 5px;
+}
+.third-bg-img{
+    background-image: url(/images/exp-bg.png);
+    background-repeat: no-repeat;
+    /* background-position:  100%; */
+  margin-left: 5px;
+
+}
